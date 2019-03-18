@@ -1,0 +1,25 @@
+.searchPage{
+    padding:30px;
+}
+.searchPage .searchOver{
+    height:46px;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.searchPage .searchOver>input{
+    width:100%;
+    height:46px;
+    border-radius: 6px;
+    border:1px solid #ddd;
+    padding:0 20px;
+}
+.searchPage .searchOver>.search{
+    width:46px;
+    height:46px;
+    outline: none;
+    border:none;
+    position: absolute;
+    right:0;
+    top:0;
+}

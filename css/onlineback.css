@@ -1,0 +1,30 @@
+.backInfo{
+    width:800px;
+    padding:20px 30px;
+}
+.backInfo .form-group{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.backInfo-input{
+    width:100%;
+    margin:10px 0;
+}
+.backInfo .form-group .area{
+    height:200px;
+    background: #fff;
+    box-shadow: 3px 3px 10px -3px rgba(0, 0, 0, 0.1) inset;
+    border: #ccc solid 1px;
+    border-radius: 6px;
+    font-size: 14px;
+    padding:10px;
+}
+.backInfo .form-group .sub{
+    height:46px;
+    background:#1c94c4;
+    color:white;
+    font-size: 16px;
+    border: #ccc solid 1px;
+    border-radius: 6px;
+}

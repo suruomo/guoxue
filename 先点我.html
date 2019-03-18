@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>邀请函</title>
+<script src="js/modernizr.js" type="text/javascript" charset="utf-8"></script>
+
+<!--[if IE 8]>
+<script src="http://libs.useso.com/js/jquery/1.8.0/jquery.min.js"></script>
+<script>	
+	$(document).ready(function(){
+		$("#contact").addClass("target");
+		$("#flip2back, #close").click(function(e){
+			$(".target").removeClass("target");
+			e.preventDefault();
+		});
+		$("#open, #flip").click(function(e){
+			var $anchor = $(this);
+			$($anchor.attr('href')).addClass("target");
+			e.preventDefault();
+		});
+	});
+</script>
+<![endif]-->
+	
+<link rel="stylesheet" href="stylesheets/style.css" />
+
+<link href='http://fonts.useso.com/css?family=Satisfy' rel='stylesheet' type='text/css' />
+
+</head>
+<body style="background: url(img/st.png);background-size: cover;">
+
+	<section class="container" id="contact" >
+		<form class="flip" action="index.html">
+			<div class="front">
+				<h2>国学邀请函</h2>
+				<p>2019-3-8</p>
+				<p>花径不曾缘客扫，蓬门今始为君开</p>
+				<a id="flip2back" href="#"></a>
+				<div >
+					<a id="flip" href="#content">返回</a>
+				</div>
+			</div>
+			<div id="content" class="back">
+				<div id="letter">
+					<div class="container">
+						<div class="flip">
+			  				<div class="front"></div>
+			  				<div class="back">
+								这是先贤用文字雕刻的灯盏，这是古人留给我们的一杯美酒，这是圣贤留给我们的一曲绝唱
+								<a id="close" href="#">关闭</a>
+							</div>
+						</div>
+					</div>
+					<textarea  class="required" id="message" name="message" placeholder="少年寄语"></textarea>	
+					<input type="submit" class="submit" value="进入" />
+				</div>
+				<div id="top">
+					<a id="flip" href="#contact">邀请函</a>
+				</div>
+				<div id="lid" class="container">
+  					<div class="flip">    
+  						<div class="front">
+							<div>
+								<label for="name">来访者:</label>
+								<input type="text"  id="name" name="name">
+							</div>
+							<div>
+								<label for="mail">来访寄语 :</label>
+								<input type="text" id="mail" name="mail" >
+							</div>
+							<a id="open" href="#content">打开</a>
+						</div>
+						<div class="back"></div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</section>
+
+</body>
+	<audio src="music/曾经艺也%20-%20荀彧(纯音乐版).mp3" preload="meta" loop autoplay id="bgmusic"></audio>
+</html>
+

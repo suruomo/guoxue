@@ -1,0 +1,109 @@
+.infoDescribe{
+    /* padding:20px; */
+    display: flex;
+	height:700px;
+	weight:700px;
+   /* justify-content: space-between; */
+}
+.content .productLeftImg{
+    width:1200px;
+    height:685px;
+}
+.content .productLeftImg img{
+    width:100%;
+    height:100%;
+}
+.content .productRightDescribe{
+    width:600px;
+    height:500px;
+}
+.content .productRightDescribe h3{
+    font-weight: 20;
+    margin-bottom: 30px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+}
+.second div{
+    position: relative;
+}
+.second div button{
+    width:40px;
+    height:100%;
+    line-height: 100%;
+    position: absolute;
+    top:0;
+    right:0;
+    border:none;
+    border-radius:0 6px 6px 0;
+}
+input{
+    width:276px;
+    height:36px;
+    border-radius: 6px;
+    border:1px solid #ddd;
+    box-shadow: 2px 2px 2px #eee inset;
+    padding:0 10px;
+}
+input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.infoDescribeMore{
+     width:1220px;
+     display: flex;
+     justify-content: space-between;
+     margin:0 auto 60px;
+ }
+.infoMore{
+    width:900px;
+    background: white;
+    border-radius: 8px;
+    border:1px solid #ddd;
+    overflow: hidden;
+}
+.infoMore img{
+    width:900px;
+    height:1448px;
+}
+.productTuiJian{
+    width:280px;
+    background: white;
+    border-radius: 8px;
+    border:1px solid #ddd;
+    overflow: hidden;
+}
+.productTuiJian .head{
+    width:280px;
+    height:60px;
+    border-bottom:1px solid #ddd;
+    text-align: center;
+    line-height: 60px;
+}
+.productTuiJian .productList{
+    width:280px;
+    height:310px;
+    border-bottom:1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productTuiJian .productList:hover{
+    box-shadow: 0 0 30px rgba(0,0,0,0.1) inset;
+    transition: all 0.3s;
+}
+.productTuiJian .productList img{
+    width:168px;
+    height:186px;
+}
+.productTuiJian .productList span{
+    margin-top: 10px;
+    width:200px;
+    text-align: center;
+}
+
+
